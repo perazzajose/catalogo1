@@ -1,0 +1,128 @@
+* {
+    font-family: monospace;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px)
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+    padding: 0 20px;
+    position: relative;
+    background-image: url(fondo-header.jpg);
+}
+
+h1 {
+    color:rgba(255, 255, 255, 0.39)
+}
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: rgba(158, 150, 140, 0.3);
+
+        width: 200px;
+        height: 300px; /* Ajusta la altura de la tarjeta para que coincida con la altura de la imagen */
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%; /* Establece un ancho del 100% */
+    height: 200px; /* Ajusta la altura según tu preferencia */
+    object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto y recortando si es necesario */
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.562);
+    background-color: rgba(66, 66, 66, 0.226);
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url(fondo.jpg);
+        background-repeat: unset;
+        backdrop-filter: blur(35px)
+    }
+}
+#homeButton {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.card.selected {
+    border: 2px solid #007bff;
+}
+
+@media (max-width: 760px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px; /* Reducir el espacio entre las tarjetas en dispositivos móviles */
+        padding: 10px;
+    }
+
+    .card {
+        width: 89%; /* Ancho completo en dispositivos móviles */
+        height: auto; /* Altura automática en dispositivos móviles */
+        margin: 10px 0; /* Espaciado vertical entre las tarjetas en dispositivos móviles */
+    }
+
+    .card img {
+        height: 128px; /* Ajustar la altura de la imagen en dispositivos móviles */
+    }
+
+    .card h3 {
+        font-size: 1rem; /* Tamaño de fuente más pequeño en dispositivos móviles */
+    }
+}

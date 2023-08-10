@@ -1,0 +1,327 @@
+{
+  "cocktails": [
+    {
+      "id": 1,
+      "name": "Good Father",
+      "image": "goodfather.jpg",
+      "ingredients": [
+        "60 ml de whisky escocés (preferiblemente single malt)",
+        "30 ml de amaretto"
+      ],
+      "instructions": "1. Agrega el whisky escocés y el amaretto a un vaso con hielo...2. Revuelve suavemente y sirve."
+    },
+    {
+      "id": 2,
+      "name": "Black Russian",
+      "image": "blackrussian.jpg",
+      "ingredients": [
+        "50 ml de vodka",
+        "20 ml de licor de café (como Kahlúa)"
+      ],
+      "instructions": "1. Llena un vaso corto con hielo...2. Agrega el vodka y luego el licor de café...3. Revuelve suavemente."
+    },
+    {
+      "id": 3,
+      "name": "French Connection",
+      "image": "french-connection.jpg",
+      "ingredients": [
+        "35 ml de coñac",
+        "35 ml de amaretto"
+      ],
+      "instructions": "1. Vierte el coñac y el amaretto en un vaso old-fashioned con hielo...2. Revuelve suavemente y sirve."
+    },
+    {
+      "id": 4,
+      "name": "Good Mother",
+      "image": "good-mother.jpg",
+      "ingredients": [
+        "60 ml de vodka",
+        "30 ml de amaretto"
+      ],
+      "instructions": "1. Agrega el vodka y el amaretto a un vaso con hielo...2. Revuelve suavemente y sirve."
+    },
+    {
+      "id": 5,
+      "name": "Alexander",
+      "image":"Alexander.jpg",
+      "ingredients": [
+        "30 ml de coñac",
+        "30 ml de crema de cacao (puede ser clara o oscura, según tu preferencia)",
+        "30 ml de crema fresca (nata líquida)",
+        "Espolvorear con nuez moscada."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Tuxedo",
+      "image":"tuxedo.jpg",
+      "ingredients": [
+        "45 ml de dry gin",
+        "45 ml de vermut rojo",
+        "1 o 2 golpes de agua de azahar",
+        "1 o 2 golpes de licor de maraschino",
+        "Twist de limón o cereza para decorar"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Martinez",
+      "image": "martinez.jpg",
+      "ingredients": [
+        "50 ml de dry gin",
+        "30 ml de vermut rojo",
+        "1 golpe de licor de maraschino",
+        "2 golpes de amargo de angostura",
+        "Twist de limón o aceituna para decorar"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Hanky Panky",
+      "image":"hanky-panky.webp",
+      "ingredients": [
+        "45 ml de london dry gin",
+        "45ml de vermut rojo",
+        "7.5ml de fernet"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Negroni",
+      "image":"negroni.jpg",
+      "ingredients": [
+        "30 ml de gin",
+        "30 ml de vermut rojo (vermut italiano)",
+        "30 ml de Campari",
+        "Twist de naranja para decorar"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Americano",
+      "image":"americano.jpg",
+      "ingredients": [
+        "30 ml de Campari",
+        "30 ml de vermut rosso (vermut italiano)",
+        "Soda (agua con gas)",
+        "Rodaja de naranja y/o limón para decorar"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dry Martinez",
+      "image":"dry-marini.jpg",
+      "ingredients": [
+        "60 ml de gin",
+        "10 ml de vermut seco",
+        "Twist de limón o aceituna para decorar"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Boulevardier",
+      "image":"boulevardier.jpg",
+      "ingredients": [
+        "45 ml de bourbon o whisky de centeno",
+        "30 ml de Campari",
+        "30 ml de vermut rojo dulce (vermut italiano)",
+        "Twist de naranja para decorar"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "White Lady",
+      "image":"whitelady.jpg",
+      "ingredients": [
+        "40 ml de gin",
+        "30 ml de triple sec (como Cointreau)",
+        "20 ml de jugo de limón"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Ramos Fizz",
+      "image":"ramosfizz.jpg",
+      "ingredients": [
+        "45 ml de ginebra",
+        "15 ml de jugo de lima",
+        "15ml de jugo de limón",
+        "30 ml de jarabe simple (azúcar disuelta en agua)",
+        "3 chorritos de agua de azahar",
+        "60 ml de crema fresca (nata líquida)",
+        "30 ml de clara de huevo",
+        "2 gotas de extracto de vainilla",
+        "Soda (agua con gas)"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Vesper",
+      "image":"vesper.jpg",
+      "ingredients": [
+        "45 ml de gin",
+        "15 ml de vodka",
+        "7,5 ml de Lillet Blanc (vermut blanco)"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Clover Club",
+      "image":"cloverclub.jpg",
+      "ingredients": [
+        "45 ml de ginebra",
+        "15 ml de jarabe de frambuesa",
+        "15 ml de jugo de limón",
+        "Gotas de clara de huevo",
+        "Frambuesas para decorar"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Bee's Knees",
+      "image": "bees-knees.jpg",
+      "ingredients": [
+        "52,5 ml de dry gin",
+        "22,5 ml de jugo de limón",
+        "22,5 ml de jugo de naranja",
+        "2 cucharaditas de miel o jarabe de miel"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Cuba Libre",
+      "image": "cubalibre.jpg",
+      "ingredients": [
+        "50 ml de Ron",
+        "10 ml de lima",
+        "Coca Cola"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Navy Grog",
+      "image": "navygrog.jpg",
+      "ingredients": [
+        "1 onzas de ron blanco cubano",
+        "1 onzas de ron oscuro jamaicano",
+        "3/4 de onzas de jugo de pomelo",
+        "1 onzas de ron de Demerara",
+        "3/4 de onzas de jugo de lima",
+        "3/4 onzas de miel",
+        "Soda"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Daikiri Clasico",
+      "image": "daikiriclasico.jpg",
+      "ingredients": [
+        "60 ml de Ron",
+        "20 ml de lima",
+        "Dos cucharadas de azúcar"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Mojito",
+      "image": "mojitp.webp",
+      "ingredients": [
+        "45 ml de ron",
+        "20 ml de lima",
+        "2 cucharadas de azúcar",
+        "6 hojitas de menta",
+        "soda"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Caipiriña",
+      "image": "caipirinha.webp",
+      "ingredients": [
+        "60 ml de cachaca",
+        "1 lima",
+        "4 cucharadas de azúcar"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Ron Sour",
+      "image": "ronsour.jpg",
+      "ingredients": [
+        "60 ml de Ron",
+        "25 ml de limón",
+        "20 ml de syrup de azúcar",
+        "20 ml de clara de huevo"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Daikiri de Frutilla",
+      "image": "daikirifrutilla.jpg",
+      "ingredients": [
+        "60 ml de ron",
+        "20 ml de lima",
+        "4 cucharadas de azúcar",
+        "4 Frutillas (depende del tamaño)"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Manhattan",
+      "image": "manhattan.jpg",
+      "ingredients": [
+        "50ml rye whiskey",
+        "20ml sweet red vermouth",
+        "1 dash angostura bitters"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Mint Julep",
+      "image": "mintjulep.jpg",
+      "ingredients": [
+        "60ml Bourbon Whiskey",
+        "4 hojitas de menta",
+        "1 cucharada de azúcar",
+        "Agua con gas"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "New York Sour",
+      "image": "nysour.jpg",
+      "ingredients": [
+        "60 ml Rye Whiskey o Bourbon",
+        "22,5 ml Jarabe simple",
+        "30 ml Jugo de limón fresco",
+        "Gotas de clara de huevo",
+        "15 ml Vino tinto (Shiraz o Malbech)"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Mai-Tai",
+      "image": "maitai.jpg",
+      "ingredients": [
+        "30 ml Amber Jamaican Rum",
+        "30 ml Martinique Molasses Rhum*",
+        "15 ml Orange Curacao",
+        "15 ml Orgeat Syrup (Almond)",
+        "30 ml Fresh Lime Juice",
+        "7.5 ml Simple Syrup"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Penicillin",
+      "image": "penincilin.jpg",
+      "ingredients": [
+        "60 ml Blended Scotch Whisky",
+        "7.5 ml Lagavulin 16y Whisky",
+        "22.5 ml Fresh Lemon Juice",
+        "22.5 ml Honey Syrup",
+        "2-3 quarter size Sliced Fresh Ginger"
+      ]
+    }
+  ]
+}
